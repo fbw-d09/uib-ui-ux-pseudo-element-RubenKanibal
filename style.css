@@ -1,0 +1,101 @@
+.quotes::before {
+    display: inline-block;
+    background-size: 1.5rem 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: '';
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+}
+
+.quotes::after {
+    display: inline-block;
+    background-size: 1.5rem 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: '';
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.files {
+    position: relative;
+    list-style: disc;
+    margin-bottom: 25px;
+}
+
+
+.pdf::after {
+    display: inline-block;
+    background-size: 2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    background-image: url(https://img.icons8.com/officel/64/000000/pdf.png);
+    position: absolute;
+    bottom: -5px;
+    margin-left: 10px;
+}
+
+.xls::after {
+    display: inline-block;
+    background-size: 2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    background-image: url(https://img.icons8.com/dusk/64/000000/ms-excel.png);
+    position: absolute;
+    bottom: -5px;
+    margin-left: 10px;
+}
+
+.doc::after {
+    display: inline-block;
+    background-size: 2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    background-image: url(https://img.icons8.com/dusk/64/000000/ms-word.png);
+    position: absolute;
+    bottom: -5px;
+    margin-left: 10px;
+}
+
+.sandwich {
+    list-style: none;
+    border: 2px solid black;
+    padding: 0;
+    width: 700px;
+    position: relative;
+}
+
+.firstSandwich {
+    height: 90px;
+}
+
+.otherStuff {
+    height: 54px;
+}
+
+
+.sandwich::after {
+    display: inline-block;
+    width: 700px;
+    height: 1rem;
+    content: '';
+    background-image: linear-gradient(to right, rgb(107, 240, 255), yellow);
+}
+
+.sandwich::before {
+    display: inline-block;
+    width: 700px;
+    height: 1rem;
+    content: '';
+    background-image: linear-gradient(to right, rgb(107, 240, 255), yellow);
+}
